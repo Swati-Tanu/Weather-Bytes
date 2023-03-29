@@ -1,5 +1,22 @@
 {
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swati-Tanu/Weather-App.git"
+  },
+  "author": "swati tanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swati-Tanu/Weather-App/issues"
+  },
+  "homepage": "https://github.com/Swati-Tanu/Weather-App#readme",
   "dependencies": {
-    "nodemon": "^2.0.21"
+    "express": "^4.18.2"
   }
 }
