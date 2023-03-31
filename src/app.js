@@ -2,11 +2,11 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 8000;
 
-app.use(express.static(""))
+// app.use(express.static(""))
 
 //Routing
-app.get("", (req,res) => {
-    res.send("Welcome!")
+app.get("/", (req,res) => {
+    res.send("Welcome to Weather App!")
 })
 
 app.get("/about", (req,res) => {
