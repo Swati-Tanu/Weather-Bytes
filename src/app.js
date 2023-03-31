@@ -1,12 +1,18 @@
 const express = require("express");
 const app = express();
+const path = require("path");
 const port = process.env.PORT || 8000;
 
-// app.use(express.static(""))
+//Static Path: We are connecting the static page to express here
+console.log(path.join(__dirname, "../public")); //C:\Users\swati\OneDrive\Desktop\Weather-App\public                                
+
+const static_path = path.join(__dirname, "../public") //address of index.html
+
+app.use(express.static(static_path))
 
 //Routing
 app.get("/", (req,res) => {
-    res.send("Welcome to Weather App!")
+    res.send("Welcome to Weather App (Backend Side)!")
 })
 
 app.get("/about", (req,res) => {
