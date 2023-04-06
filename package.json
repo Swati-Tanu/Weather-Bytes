@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/app.js",
+    "build": "npm run build:css && npm run build:js && npm run build:views",
+    "build:css": "mkdir -p public/css && cp -R src/css public",
+    "build:js": "mkdir -p public/js && cp -R src/js public",
+    "build:views": "mkdir -p public && npx handlebars src/templates -f public/index.html -p src/templates/partials"
   },
   "repository": {
     "type": "git",
@@ -19,10 +23,5 @@
   "dependencies": {
     "express": "^4.18.2",
     "hbs": "^4.2.0"
-  },
-  "build": "npm run build:css && npm run build:js && npm run build:views",
-"build:css": "mkdir -p public/css && cp -R src/css public",
-"build:js": "mkdir -p public/js && cp -R src/js public",
-"build:views": "mkdir -p public && npx handlebars src/templates -f public/index.html -p src/templates/partials"
+  }
 }
-
