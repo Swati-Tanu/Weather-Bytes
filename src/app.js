@@ -20,8 +20,6 @@ hbs.registerPartials(partials_path);
 const static_path = path.join(__dirname, "../public") //address of index.html
 app.use(express.static(static_path))
 
-
-
 //Routing
 app.get("/", (req,res) => {
     res.render("index")
