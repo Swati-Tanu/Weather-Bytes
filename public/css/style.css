@@ -9,7 +9,7 @@
 
 :root{
     --main-bg: #1e272e;
-    --main-color: #0097e6;
+    --main-color: #b96b8c;
 }
 
 html{
@@ -27,12 +27,12 @@ body{
 }
 
 .main_menu{
-    background-color: var(--main-bg);
+    background-color: maroon;
 }
 
 .navbar{
     color: #fff;
-    background-color: var(--main-bg);
+    background-color: maroon;
     padding: 2rem 0;
 }
 
@@ -52,7 +52,7 @@ body{
 .fa-snowflake{
     transition: all linear;
     animation: rot 2s linear infinite;
-    color: var(--main-color);
+    color: white;
 }
 
 @keyframes rot{
@@ -119,7 +119,7 @@ body{
     width: 40rem;
     margin: auto;
     min-height: 20rem;
-    background-color: #323544;
+    background-color: pink;
     border-radius: 1rem;
     /* padding: 1rem; */
     font-family: "Roboto", sans-serif;
@@ -128,7 +128,7 @@ body{
 .top-layer{
     width: 100%;
     height: 20%;
-    background-color: #2d303d;
+    background-color: pink;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -137,8 +137,8 @@ body{
 }
 
 .top_layer p{
-    color: #fff;
-    font-weight: 300;
+    color: maroon;
+    font-weight: 500;
     padding: 2rem;
     font-size: 1.5rem;
 }
@@ -154,7 +154,7 @@ body{
 
 .main_layer #city_name{
     padding: 2rem 0;
-    color:#bfc1c8;
+    color:maroon;
     font-weight: 300;
     font-size: 2rem;
 }
@@ -162,7 +162,7 @@ body{
 .main_layer .middle_layer{
     display: flex;
     justify-content: space-around;
-    color: #fff;
+    color:maroon;
 }
 
 .main_layer .middle_layer p,
@@ -172,7 +172,7 @@ body{
 }
 
 .fa{
-    color: #009ad8;
+    color: maroon;
 }
 
 sup{
@@ -194,8 +194,8 @@ sup{
 .temp_form input[type="text"]{
     width: 100%;
     padding: 2rem 5rem 2rem 2rem;
-    background: #1e202b;
-    color: white;
+    background: pink;
+    color: maroon;
     outline: white;
     outline: none;
     border: none;
@@ -204,7 +204,7 @@ sup{
 }
 
 ::placeholder{
-    color: #bfc1c8;
+    color: maroon
 }
 
 .temp_form input[type="submit"]{
@@ -213,7 +213,7 @@ sup{
     right: 5px;
     bottom: 5px;
     border: none;
-    background-color: #009ad8;
+    background-color: maroon;
     padding: 0 3rem;
     border-radius: 3rem;
     color: white;
@@ -227,7 +227,7 @@ sup{
 
 footer{
     width: 100%;
-    background-color: var(--main-bg);
+    background-color: maroon;
     margin-top: auto;
 }
 
