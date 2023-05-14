@@ -33,7 +33,7 @@ body{
 .navbar{
     color: #fff;
     background-color: maroon;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .navbar li{
@@ -79,7 +79,7 @@ body{
 } */
 
 .main_header_left p{
-    padding-top: 80px;
+    padding-top: 5%;
     font-size: 2rem;
 }
 
@@ -235,7 +235,7 @@ footer p{
     margin: 0;
     text-align: center;
     color: #fff;
-    line-height: 5rem;
+    line-height: 3rem;
     font-size: 1.4rem;
 }
 
