@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/app.js",
     "build": "npm run build:css && npm run build:js && npm run build:views",
     "build:css": "mkdir -p public/css && cp -R src/css public",
     "build:js": "mkdir -p public/js && cp -R src/js public",
