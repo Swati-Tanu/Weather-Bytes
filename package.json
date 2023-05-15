@@ -2,8 +2,9 @@
   "name": "weather-app",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
     "build": "npm run build:css && npm run build:js && npm run build:views",
     "build:css": "mkdir -p public/css && cp -R src/css public",
     "build:js": "mkdir -p public/js && cp -R src/js public",
