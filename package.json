@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node src/app.js",
     "build": "npm run build:css && npm run build:js && npm run build:views",
-    "build:css": "mkdir -p public/css && cp -R src/css public",
-    "build:js": "mkdir -p public/js && cp -R src/js public",
-    "build:views": "mkdir -p public && npx handlebars src/templates -f public/index.html -p src/templates/partials"
+    "build:css": "mkdir -p public/css",
+    "build:js": "mkdir -p public/js",
+    "build:views": "mkdir -p templates && npx handlebars templates -f public/index.html -p templates/partials"
   },
   "repository": {
     "type": "git",
