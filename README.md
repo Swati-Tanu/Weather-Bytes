@@ -20,12 +20,16 @@
 </p>
 <hr>
 
+
 ## Features 
 -  Live weather forecast
 -  Real time API
 -  Responsive
 
+
 ## Run Locally
+
+
 ### Clone this Project
 
 ```
@@ -58,14 +62,17 @@ npx nodemon app.js
 
 
 ## API Endpoints
+
    #### Welcome
 ```javascript
 GET  /
 ```
+
   #### Weather Forecast
 ```javascript
 GET  /weather
 ```
+
   #### About
 ```javascript
 GET  /about
