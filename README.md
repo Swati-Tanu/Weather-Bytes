@@ -24,7 +24,6 @@
 -  Live weather forecast
 -  Real time API
 -  Responsive
--  
 
 ## Run Locally
 ### Clone this Project
