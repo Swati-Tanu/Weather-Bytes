@@ -4,7 +4,7 @@
   <img src="public/images/logo.jpg" alt="html"  height="100"/>
   <br>
   <br>
-  <p>Welcome to Weather Bytes, a weather forecast website that keep it's user  informed with the latest weather updates.  This website is designed to get you the accurate weather forecasts for your location, no matter where you are.</p>
+  <p>Welcome to Weather Bytes, a weather forecast website that informs users of the latest weather updates. This website is designed to get users accurate weather forecasts for their location, no matter where they are. </p>
 </div>
 <hr> 
 
