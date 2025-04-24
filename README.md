@@ -110,12 +110,6 @@ GET  /about
 <div/>
   <br>
 
-| `Demo` |
-| :----: | 
-   
-
-[Live](https://courageous-sneakers-elk.cyclic.app/)
-
 
  
 | `Author` |
